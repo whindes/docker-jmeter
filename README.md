@@ -1,6 +1,6 @@
 # docker-jmeter
 
-[![](https://images.microbadger.com/badges/image/justb4/jmeter.svg)](https://microbadger.com/images/justb4/jmeter "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/whindes/jmeter.svg)](https://microbadger.com/images/whindes/jmeter "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/whindes/jmeter.svg)](https://microbadger.com/images/whindes/jmeter "Get your own version badge on microbadger.com")
 
 Docker image for [Apache JMeter](http://jmeter.apache.org).
 The aim is to have a Docker image that can be run as the ``jmeter`` command
