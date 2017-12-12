@@ -16,8 +16,8 @@ you may use your own ``docker build`` commandline.
 
 Build argumments (see [build.sh](build.sh)) with default values if not passed to build:
 
-- **JMETER_VERSION** - JMeter version, default ``3.1``
-- **IMAGE_TIMEZONE** - timezone of Docker image, default ``"Europe/Amsterdam"``
+- **JMETER_VERSION** - JMeter version, default ``3.3``
+- **IMAGE_TIMEZONE** - timezone of Docker image, default ``"US/Pacific"``
 
 NB **IMAGE_TIMEZONE** setting is not working yet.
 
@@ -69,5 +69,6 @@ sudo docker run --name ${NAME} -i -v ${WORK_DIR}:${WORK_DIR} -w ${WORK_DIR} ${IM
 ## Credits
 
 Thanks to https://github.com/hauptmedia/docker-jmeter
-and https://github.com/hhcordero/docker-jmeter-server for providing
-the Dockerfiles that inspired me. 
+and https://github.com/hhcordero/docker-jmeter-server 
+Just van den Broecke for providing
+the Dockerfiles and the ability to Fork this repo - https://github.com/justb4/docker-jmeter. 
